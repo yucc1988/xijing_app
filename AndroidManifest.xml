@@ -5,22 +5,24 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
         <activity
-            android:name="com.example.xijin.XijinActivity"
-            android:label="@string/app_name" >
+            android:name="com.example.xijin.NewsActivity"
+            android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="NewsDetailActivity" android:theme="@style/Theme.AppCompat" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

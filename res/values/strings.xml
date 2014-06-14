@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Xijin</string>
+    <string name="app_name">聚宝盆</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+	<string name="action_refresh">Refresh</string>
+	
+	<string name = "url_news">http://rss.sina.com.cn/news/marquee/ddt.xml</string>
+	<string name = "url_finance">http://rss.sina.com.cn/roll/finance/hot_roll.xml</string>
+	<string name = "url_sports">http://rss.sina.com.cn/roll/sports/hot_roll.xml</string>
+	
+	<string name = "tab_news">新闻要闻</string>
+	<string name = "tab_finance">财经新闻</string>
+	<string name = "tab_sports">体育新闻</string>
+	
 </resources>
