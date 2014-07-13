@@ -1,6 +1,5 @@
 package com.example.xijin;
 
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
@@ -24,8 +23,8 @@ public class NewsDetailActivity extends ActionBarActivity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.news_detail);
-		ActionBar bar = getSupportActionBar();
-		bar.setDisplayOptions(bar.getDisplayOptions() ^ ActionBar.DISPLAY_HOME_AS_UP,ActionBar.DISPLAY_HOME_AS_UP);
+
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		Intent intent = getIntent();
 		
@@ -42,10 +41,10 @@ public class NewsDetailActivity extends ActionBarActivity{
 		((TextView)findViewById(R.id.link)).setText(Html.fromHtml("<a href=\"" + link + "\">" + link + "</a>"));
 		((TextView)findViewById(R.id.link)).setMovementMethod(LinkMovementMethod.getInstance());
 	}
-
+	
 	@Override
 	public boolean onSupportNavigateUp() {
 		finish();
-		return true;
+		return super.onSupportNavigateUp();
 	}
 }

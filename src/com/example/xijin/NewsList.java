@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Locale;
 import java.util.Map;
 
@@ -24,9 +24,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class NewsListFragment extends ListFragment{
+public class NewsList extends ListFragment{
 
-	private static final String TAG = NewsListFragment.class.getName();
+	private static final String TAG = NewsList.class.getName();
 	
 	public static final String RSS_URL = "rss_url";
 	
@@ -41,7 +41,7 @@ public class NewsListFragment extends ListFragment{
 		super.onCreate(savedInstanceState);
 		
 		rssUrl = getArguments().getString(RSS_URL);
-		adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, new LinkedList<String>());
+		adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, new ArrayList<String>());
 		
 		setListAdapter(adapter);
 		

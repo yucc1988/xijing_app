@@ -14,4 +14,13 @@
 	<string name = "tab_finance">财经新闻</string>
 	<string name = "tab_sports">体育新闻</string>
 	
+	<string-array name="menu_array">
+        <item>最新资讯</item>
+        <item>实时行情</item>
+        <item>官方论坛</item>
+        <item>我的账户</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+	
 </resources>
