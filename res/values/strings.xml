@@ -14,7 +14,11 @@
 	<string name = "tab_finance">财经新闻</string>
 	<string name = "tab_sports">体育新闻</string>
 	
+	<string name = "tab_market_price">市场报价</string>
+	<string name = "tab_candle_chart">K线图</string>
+	
 	<string-array name="menu_array">
+	    <item>北京石油</item>
         <item>最新资讯</item>
         <item>实时行情</item>
         <item>官方论坛</item>
