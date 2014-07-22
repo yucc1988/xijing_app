@@ -78,16 +78,19 @@ public class MainActivity extends ActionBarActivity{
 
     private void selectItem(int position) {
     	switch (position) {
-		case 0:
+    	case 0:
+    		getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new PekingOilView()).commit();
+    		break;
+		case 1:
 			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new NewsView()).commit();
 			break;
-		case 1:
+		case 2:
 			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new TodoView()).commit();
 			break;
-		case 2:
+		case 3:
 			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ForumView()).commit();
 			break;
-		case 3:
+		case 4:
 			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new TodoView()).commit();
 			break;
 		default:
