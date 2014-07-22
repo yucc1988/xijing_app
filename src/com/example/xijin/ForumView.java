@@ -24,6 +24,6 @@ public class ForumView extends Fragment {
         		return false;
         	}
         });
-        webView.loadUrl("http://zzhzbbs.zjol.com.cn/forum-2-1.html");
+        webView.loadUrl("http://114.215.102.36/bbs/index.php");
     }
 }
