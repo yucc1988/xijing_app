@@ -24,6 +24,6 @@ public class ForumView extends Fragment {
         		return false;
         	}
         });
-        webView.loadUrl("http://114.215.102.36/bbs/index.php");
+        webView.loadUrl(getString(R.string.forum_url));
     }
 }

@@ -27,4 +27,29 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
 	
+    <string name="dialog_trade_title">建立市价单</string>
+    <string name="dialog_trade_ok">确定</string>
+    <string name="dialog_trade_cancel">取消</string>
+    <string name="forum_url">http://114.215.102.36/bbs/index.php</string>
+    <string name="shhjjys_url">http://114.215.102.36/news_and_market/market/shhjjys/item_new.json</string>
+    
+    <string name="trade_product">商品：</string>
+    <string name="trade_product_item1">ULP1</string>
+    <string name="trade_product_item2">ULP2</string>
+    
+    <string name="trade_method">卖出/买进：</string>
+    <string name="trade_method1">卖出</string>
+    <string name="trade_method2">买进</string>
+    
+    <string name="trade_number">数量：</string>
+    <string name="trade_price">价格：</string>
+    
+    <string-array name="trade_price_array">
+        <item>1</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>25</item>
+    </string-array>
 </resources>

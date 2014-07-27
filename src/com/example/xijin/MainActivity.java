@@ -85,7 +85,7 @@ public class MainActivity extends ActionBarActivity{
 			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new NewsView()).commit();
 			break;
 		case 2:
-			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new TodoView()).commit();
+			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new RTPriceView()).commit();
 			break;
 		case 3:
 			getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ForumView()).commit();
